@@ -38,5 +38,6 @@ public class palindrome {
         {
             System.err.println("not a palindrome");
         }
+        sc.close();
     }
 }

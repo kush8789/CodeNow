@@ -19,7 +19,7 @@ public class alldivisors
     }
     public static void main(String[] args)
     {
-        Scanner sc =new Scanner(System.in);
+        try (Scanner sc =new Scanner(System.in)){
         int n=sc.nextInt();
         
         int[] size= new int[1];
@@ -29,5 +29,6 @@ public class alldivisors
         {
             System.out.print(divisors[i]+" ");
         }
+    }
     }
 }

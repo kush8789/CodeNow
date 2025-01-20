@@ -1,0 +1,100 @@
+1. What is react?
+
+React is a front-end and open-source JavaScript library which is useful in developing user interfaces specifically for applications with a single page. It is helpful in building complex and reusable user interface(UI) components of mobile and web applications as it follows the component-based approach.
+
+The important features of React are:
+
+It supports server-side rendering.
+It will make use of the virtual DOM rather than real DOM (Data Object Model) as RealDOM manipulations are expensive.
+It follows unidirectional data binding or data flow.
+It uses reusable or composable UI components for developing the view.
+
+2. advantages of react?
+
+SEO friendly
+Reusable components
+use virtualdom instead of realdom
+
+3. limitations of react?
+
+only a library not a framework
+numerous components
+complex
+
+4. useState() in react?
+
+UseState is a builtin react hook that allows you for having state variables in functional components. for dynamic environment
+
+5. keys in react?
+
+A key is a special string attribute that needs to be included when using lists of elements.
+
+6. JSX?
+
+javascript XML 
+
+7. difference between functional and class components?
+
+Before the introduction of Hooks in React, functional components were called stateless components and were behind class components on a feature basis. After the introduction of Hooks, functional components are equivalent to class components.
+Handling props and states
+
+8. Virtual DOM
+
+virtual representation of real DOM
+
+9. controlled and uncontrolled components
+
+10. props in react?
+
+the props in react are the inputs to a component.
+props are data passed from parent to child component.
+passing custom data to react components
+triggering state change
+
+11. props and states
+
+props-
+immutable
+parent to child
+has better performance
+
+state-
+owned by its component
+locally scoped
+mutable
+setState() method to modify properties
+can only be passed as props
+
+12. there are two types of side effects in react:
+effects without cleanup- This side effect will be used in useEffect which does not restrict the browser from screen update.
+effects with cleanup- Some of the Hook effects will require the cleanup after updating of DOM is done.
+
+13. prop drilling
+
+top to bottom component
+
+14. error boundaries provide a way for us to catch errors that occur in the render phase
+
+15. React hooks
+
+React Hooks are the built-in functions that permit developers for using the state and lifecycle methods within React function components.
+
+16. What are the rules that must be followed while using React Hooks?
+
+There are 2 rules which must be followed while you code with Hooks:
+
+React Hooks must be called only at the top level. It is not allowed to call them inside the nested functions, loops, or conditions.
+It is allowed to call the Hooks only from the React Function Components.
+
+17. useEffect-- side effect after each rendering
+
+18. useRef hook
+
+19. Custom Hooks
+
+A Custom Hook is a function in Javascript whose name begins with ‘use’ and which calls other hooks.
+
+
+->> hooks start with keyword 'use' and it should be on the top level only.
+
+const [counter,useCounter] = useState(0);

@@ -20,5 +20,6 @@ public class checksorted
             arr[i]=sc.nextInt();
         }
         System.out.println(isSorted(arr, n));
+        sc.close();
     }
 }

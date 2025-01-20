@@ -19,6 +19,7 @@ public class countdigitsinanumber {
         System.out.println(n);
         int digits = countDigits(n);
         System.out.println(digits);
+        scanner.close();
     }
 }
 

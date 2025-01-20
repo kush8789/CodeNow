@@ -1,0 +1,175 @@
+1. What is JavaScript?
+
+JavaScript is a versatile, high level programming language primarily used for web development to create interactive and dynamic content on websites.
+
+2. Explain difference between const,let,var?
+
+'var' is funtion-scoped can be redeclared and updated
+'let' is block scoped, can not be redeclared within same block, and can be updated
+'const' is also block scoped, but cannot be redeclared and updated
+
+3. How does hoisting work in javascript?
+
+Hoisting is a javascript mechanism where variable and function declarations are moved to the top of their containing scope during the compile phase.
+This means variables declared with 'var' and functions can be used before they are declared in the code.
+
+4. describe the concept of closures?
+
+A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope.
+
+5. explain the event loop in javascript?
+
+it continuously checks the call stack and the task queue, executing tasks from the queue only if it is empty.
+
+6. == and ===?
+
+== it compares after type coersion
+=== its for strict equality
+
+7. How do you check the type of variable in JavaScript?
+
+typeof variable
+
+8. what is the use of this keyword in JavaScript?
+
+this keyword refers to the current object
+
+9. explain the difference between function declaration and function expression?
+
+a function declaration defines a named function and is hoisted to the top of the current scope, making it available to the rest of the code.
+a function expression is a function that is not hoisted and is not a named function. It is created in the current scope and can be invoked later.
+
+10. how does the setTimeout function works?
+
+setTimeout is a function that executes a function after a specified number of milliseconds
+
+11. what is a callback function?
+
+A callback function is a function passed as an argument to another function, which is then invoked in the outer function
+to complete some kind of routine and tasks.
+
+12. expalin the concept of pure function?
+
+Pure function is a function that always returns the same output for the same input.
+
+13. function.call, function.apply and function.bind?
+
+function.call is used to call a function, with arguments
+function.apply is used to call a function, with an array of arguments
+function.bind is used to create a new function, with the specified arguments
+
+14. what is the purpose of the arguments object in a function?
+
+The arguments object is used to store the arguments passed to a function.
+
+15. how do you create a closure in javascript?
+
+a closure is created by defining a function inside another function. the inner function will have access to the variables in the outer function.
+
+16. what is the use of bind method?
+
+the 'bind' method creates a new function that, when called, has its this keyword set to the provided value,
+with a given sequence of arguments preceding any provided when the new function is called.
+
+17. what is the difference between shallow and deep copy?
+
+a shallow copy copies only the reference of nested objects
+a deep copy copies the complete object.
+
+18. how does call stack work in javascript?
+
+the call stack is a data structure which maintains the order of function calls in a program.
+
+19. explain the concept of function currying?
+
+currying is the process of transforming a function that takes multiple arguments into a sequence of functions that each take a single argument.
+
+20. what is prototypal inheritence?
+
+prototypal inheritence is a feature in javasscript that allows us to add methods and properties in objects.
+
+21. how do you create an object in javascript?
+
+an object can be created using object literals, the 'new' keyword, or the Object constructor, or using the 'Object.create()' method.
+
+22. what is the purpose of prototype property in JavaScript?
+
+prototype is a property that is used to add methods and properties to objects.
+
+23. difference between object.create and constructor pattern?
+
+object.create is used to create an object
+constructor pattern is used to create an object
+
+24. how can you avoid callback hell in JavaScript?
+
+callback hell can be avoided by using promises, async and await syntax or modularizing and organizing your code.
+
+25. how do you add a property to object in JavaScript?
+
+object[property] = value
+
+26. hasownproperty method in javascript?
+
+hasownproperty is used to check if a property is present in an object
+
+27. how can you prevent object modification in JavaScript?
+
+you can prevent object modification by using Object.freeze() method object.seal()
+
+28. describe the use of new keyword?
+
+the new keyword is used to create an instance of a user-defined object type or a built-in object that has a constructor function.
+it initializes instance with the properties and methods defined in the constructor
+
+29.  object destructuring in JavaScript?
+
+object destructuring is used to unpack the properties of an object into distinct variables
+
+30. difference between null and undefined in JavaScript?
+
+'null' is an assignment value that represents the intentional absense of any object value.
+'undefined' indicates that a variable has been declared but has not yet been assigned a value.
+
+31. what is DOM?
+
+DOM stands for Document Object Model.
+It is a representation of an HTML document that can be accessed and manipulated using JavaScript.
+
+32. how do you select elements with vanilla JavaScript?
+
+document.getElementByID, document.getElementByClassName, document.getElementByTagName
+document.querySelector, document.querySelectorAll
+
+33. event delegation in JavaScript?
+
+event delegation is a technique where a single event listener is used to handle multiple events
+
+34. purpose of addEventListener?
+
+addEventListener is used to add an event listener to an element
+
+35. how do you create and remove elements in the DOM?
+
+document.createElement, document.removeChild
+
+36. event propagation?
+
+means how event propogates within DOM tree.
+
+37. how can you prevent default behaviour of an element?
+
+event.preventdefault()
+
+38. purpose of data-attribute in html?
+
+data-attribute is used to store data in html
+
+39. inner html and textcontent?
+
+inner html-> html tags
+textcontent-> text content
+
+40. how do you handle asynchronous code in javascript?
+
+can be handelled by callbacks, Promises, async/await and event handlers.

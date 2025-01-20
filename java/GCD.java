@@ -19,6 +19,6 @@ public class GCD
         int n1 = scanner.nextInt();
         int n2 = scanner.nextInt();
         System.out.println(findgcd(n1,n2));
-
+        scanner.close();
     }
 }

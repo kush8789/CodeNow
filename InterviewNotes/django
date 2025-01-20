@@ -1,0 +1,97 @@
+# 1. Django Urls?
+
+# 2. explain django project directory structure?
+
+# manage.py-a command line utility that allows you to interact with django project
+# _init_.py- to tell it is python package
+# settings.py-settins
+# urls.py-urls
+# wsgi.py- entry point to connect webservers
+
+# 3. models?
+
+# a model in a django refers to a class that maps to a database table or database collecction.
+
+# 4. templates or MVT?
+
+# 5. view function?
+
+# that takes web requests and give back web responses
+
+# 6. Django ORM?
+
+# Object Relational Mapper enables us to interact with databases. abstraction layer between model and databases
+
+# 7. static files?
+
+# 8. DRF?
+
+# which let us create restful api's
+
+# 9. django-admin and manage.py?
+
+# 10. jinja templating?
+
+# jinja templating is very powerful templating engine in python
+
+# 11. Django architecture?
+
+# django follows MVT architecture which is based on MVC architecture
+# DTL
+
+# 12. project vs app?
+
+# 13. use of middleware in django?
+
+# bridge between request and response
+
+# 14. django.shortcuts.render function?
+
+# 15. how to view all objects in model?
+
+# modelName.objects.all()
+
+# 16. filter--model.objects.filter(field_name="")
+
+# 17. session framework
+
+# 18. what are django signals?
+
+# 19. caching in django?
+
+# Memcached,FileSystem Caching,Local-memory Caching,Database Caching
+
+# 20. user authentication in django?
+
+# 21. static files configuration?
+
+# 22. django response life cycle?
+
+# 23. why is permanent redirection not a good option?
+
+# users will not be able to move to new urls
+
+# 24. mixin?
+
+# inheriting from multiple classes
+
+# 25. foreignkey and one-to-one field?
+
+# foreignkey field consists of on_delete option and is of type many-to-one field
+# one-to-one field
+
+# 26. models.object.get(id)
+
+# 27. print(queryset.query)
+
+# 28. Q objects in models
+
+# if you want AND or OR conditions you can use Q object
+
+# 29. virtualenv?
+
+# A virtual environment allows you to establish separate dependencies of the different projects by creating an isolated environment that isn’t related to each other and can be quickly enabled and deactivated when you’re done.
+
+# 30. serialization in django?
+
+# Serializers in the django rest framework are responsible for transforming objects into data types that javascript and frontend frameworks can understand. After validating the incoming data serializers also enables deserialization, which allows parsed data to be transformed into complex data.

@@ -1,0 +1,25 @@
+1. What is EC2?
+
+EC2 a virtual machine in a cloud on which you have OS level control.
+
+2. What is snowball?
+
+Snowball is a small application that enable you to transfer terabytes of data inside and outside of AWS environment.
+
+3. What do you mean by VPC?
+
+Virtual Private Cloud, It allows you to configure your networks.
+
+4. DNS and Load Balancer comes under IaaS cloud service.
+
+5. Key pairs in aws?
+
+Key-Pairs are secure login information for your virtual machine.
+
+6. Different types of cloud services?
+
+IaaS,PaaS,SaaS
+
+7. Expalin, what S3 is?
+
+S3 stands for simple storage service

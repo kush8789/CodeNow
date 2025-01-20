@@ -13,5 +13,6 @@ public class reverseanumber
             n = n / 10;
         }
         System.out.println(rev);
+        scanner.close();
     }
 }

@@ -37,6 +37,7 @@ public static void main(String[] args)
     }
 		int sL = secondLargest(arr, n);
 	System.out.println("Second largest is "+sL);
+    sc.close();
 }
 
 }

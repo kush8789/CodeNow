@@ -33,6 +33,7 @@ public class countfrequency
             a[i]=sc.nextInt();
         }
         countfre(n,a);
+        sc.close();
     }
 }
 

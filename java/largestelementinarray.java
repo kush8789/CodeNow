@@ -13,5 +13,6 @@ public class largestelementinarray
         }
         Arrays.sort(arr);
         System.out.println(arr[n-1]);
+        sc.close();
     }
 }

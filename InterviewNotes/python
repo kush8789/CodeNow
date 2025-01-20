@@ -1,0 +1,21 @@
+1. what is init?
+
+init is a constructor function which is called when instance is created
+
+2. array and lists in python?
+
+array- homogeneous, only contain one data type
+list- heterogeneous
+
+3. slicing?
+
+[start:stop:step]
+
+4. self in python?
+
+self is used to represent the instance of a class. With this keyword, you can access the attributes and methods of the class in python.
+
+5. Static - Data Types are checked before execution.
+Dynamic - Data Types are checked during execution.
+
+6. 

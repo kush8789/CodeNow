@@ -19,5 +19,6 @@ public class fibonacciseries
             System.out.println(fibonacci(i));
             i++;
         }
+        sc.close();
     }
 }
